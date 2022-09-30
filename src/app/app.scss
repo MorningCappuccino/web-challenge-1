@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    background-color: azure;
+}
+
+#wrapper {
+    // scroll-behavior: smooth;
+    // overflow-y: hidden;
+    overflow-x: hidden;
+    display: flex;
+}
+
+#screen-1, #screen-2 {
+    //TODO: temp
+    min-width: 100vw;
+    min-height: 100vh;
+    flex-shrink: 0;
+    // position: absolute;
+    position: relative;
+}
+
+#bubble-container {
+    width: 100vw;
+    height: 100vh;
+}
